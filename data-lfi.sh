@@ -19,7 +19,7 @@ read url
   
 trap 'echo "[-] Interruption caugth.! exiting..."; exit 0' SIGINT
 
-echo -n "[+] Digite o Cookie de sessao: "
+echo -n "[+] Type the cookie session: "
 read cookie
 echo "[+] Choose type data [+]"
 echo "[+] 1 - base64"
